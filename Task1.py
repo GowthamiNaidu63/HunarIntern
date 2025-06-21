@@ -12,7 +12,7 @@ def chatbot():
         elif "weather" in user_input:
             print("Chatbot: The weather is sunny with a chance of code!")
         elif "name" in user_input:
-            print("Chatbot: I'm ChatGPT, your friendly chatbot.")
+            print("Chatbot: I'm Chatbot, your friendly chatbot.")
         elif "time" in user_input:
             current_time = datetime.datetime.now().strftime("%H:%M")
             print(f"Chatbot: The current time is {current_time}.")
